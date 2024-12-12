@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  background-image: url("../../assets/MafiaBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 522px;
+  height: 700px;
+  border-radius: 49px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+  position: relative; 
+}
+
+.login-title {
+  font-family: "Multiround Pro";
+  color: #000;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.login-icon {
+  background-image: url("../../assets/Login_icon.png");
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px; 
+}
+
+.login-input {
+  width: calc(100% - 64px); 
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 15px 0px; 
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.login-name-container {
+  display: flex;
+  gap: 100px;
+  width: calc(100% - 64px);
+  justify-content: space-between;
+}
+
+.login-input.name-input {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.login-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.login-buttons {
+  display: flex;
+  position: absolute; 
+  bottom: 135px; 
+  justify-content: center;
+  gap: 20px; 
+  width: 100%;
+  transform: translateX(-50%)
+}
+
+.login-button.active {
+  background-color: #f0f0f0;
+  color: #000;
+  border-color: #000;
+}
+
+.login-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.login-apply-btn {
+  width: 404px;
+  height: 83.794px;
+  border-radius: 40px;
+  border: 2px solid #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  position: absolute; 
+  bottom: 20px; 
+}
+
+.login-apply-btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
